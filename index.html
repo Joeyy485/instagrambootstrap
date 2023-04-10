@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="">    
+    </head>
+    <body style="background-color: lightgrey;"> 
+    <body>    
+        <nav class="navbar navbar-light sticky-top bg-light">
+        <a class="navbar-brand" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <ul class="nav ">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench"></i></a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Accessibility</a>
+                        <a class="dropdown-item" href="#">Privacy and Data</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-body ">
+                  <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-success btn-sm">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div>            
+        <div class="container-fluid ">
+            <ul class="nav nav-pills justify-content-center mt-4" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu2"><i class="fa fa-th-list" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+              <div class="tab-content">
+                <div id="home" class="container-fluid tab-pane active "><br>
+                    <div class="row justify-content-center">
+                        <div class="">
+                            
+                            <div class="card mx-auto custom-card" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>First Post</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>1/15</h4></div>
+                                </div>
+                                <img class="card-img" src="https://slm-assets.secondlife.com/assets/7525549/view_large/Snapshot_008.jpg?1365789275" alt="Card image cap">  
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>Second Post</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>1/17</h4></div>
+                                </div>
+                                <img class="card-img" src="https://m5.paperblog.com/i/57/571786/20-photos-of-sweet-seychelles-L-bfXomp.jpeg" alt="Card image cap">     
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>Third Post</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>1/20</h4></div>
+                                </div>
+                                <img class="card-img" src="https://editorial01.shutterstock.com/preview-440/10341456ae/4c7879fe/Shutterstock_10341456ae.jpg" alt="Card image cap">      
+                            </div>
+                            
+                            <div class="card mx-auto custom-card mt-3" id="prova">
+                                <div class="row post-header col-12 py-2 px-3">
+                                    <div class="col-6 float-left "><h4>Fourth Post</h4></div>
+                                    <div class="col-6 float-right text-right post-number"><h4>1/24</h4></div>
+                                </div>
+                                <img class="card-img" src="https://editorial01.shutterstock.com/preview-440/8454147c/553ba408/Shutterstock_8454147c.jpg" alt="Card image cap">   
+                            </div>                    
+                        </div>
+                    </div>    
+                </div>
+                
+                <div id="menu2" class="container-fluid tab-pane fade"><br>
+                    <div class="row ">
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://editorial01.shutterstock.com/preview-440/8454147c/553ba408/Shutterstock_8454147c.jpg" alt="" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://editorial01.shutterstock.com/preview-440/10341456ae/4c7879fe/Shutterstock_10341456ae.jpg" alt="" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://m5.paperblog.com/i/57/571786/20-photos-of-sweet-seychelles-L-bfXomp.jpeg" alt="" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1 ">
+                            <img src="https://www.thebatavian.com/files/users/60/2021-05/vallanceroadmay62021-2.jpg" alt="" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa62RjL8N888W7eUV6HtVtP4YnHgSacNOyuQ&usqp=CAU" alt="" width="100%" height="350px">
+                        </div>
+                        <div class="col-md-4 col-sm-6 px-1 my-1">
+                            <img src="https://editorial01.shutterstock.com/preview-440/7041553a/230c9098/Shutterstock_7041553a.jpg" alt="" width="100%" height="350px">
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin=""></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin=""></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin=""></script>
+    </body>
+</html>
